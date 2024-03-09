@@ -1,8 +1,6 @@
 # DeepFake Audio Detection 
 ## Overview
-This is a project of stanCode SC201 poster session done in January 2023. We tried to build a model that can detect the authenticity of an audio file. The whole presentation of this project was also recorded and uploded on stanCode official YouTube account.
-
-<a href="https://youtu.be/EPhzvGlP_jY?si=Kdd6X0hgM7Wltv59"> poster record </a>
+This is a project of stanCode SC201 poster session done in January 2023. Also, it's done by four members: Ching-yuan Pai, Yipin Peng, Andy Chen and me. We tried to build a model that can detect the authenticity of an audio file. The whole presentation of this project was also recorded and uploded on stanCode official YouTube account.
 
 ## Dataset - ASVspoof2019
 ASVspoof is a challenge hold in bi-annual which aim to promote the design of contermeasure to protect automatic speaker verification system from manipulation. 
@@ -24,3 +22,5 @@ ASVspoof is a challenge hold in bi-annual which aim to promote the design of con
 <a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning for Image Recognition</a>
 
 <a href="https://www.asvspoof.org/database">ASVspoof2019 Dataset</a>
+
+<a href="https://youtu.be/EPhzvGlP_jY?si=Kdd6X0hgM7Wltv59"> poster recording </a>
