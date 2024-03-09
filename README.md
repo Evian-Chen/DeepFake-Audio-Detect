@@ -1,6 +1,8 @@
 # DeepFake Audio Detection 
 ## Overview
-This ia a project of stanCode SC201 poster session done in January 2023. We tried to build a model that can detect the authenticity of an audio file within one month. The whole presentation of this project was also recorded and uploded on stanCode official account.
+This is a project of stanCode SC201 poster session done in January 2023. We tried to build a model that can detect the authenticity of an audio file within one month. The whole presentation of this project was also recorded and uploded on stanCode official YouTube account.
+
+<a href="https://youtu.be/EPhzvGlP_jY?si=Kdd6X0hgM7Wltv59"> poster record </a>
 
 ## Dataset - ASVspoof2019
 ASVspoof is a challenge hold in bi-annual which aim to promote the design of contermeasure to protect automatic speaker verification system from manipulation. 
@@ -8,16 +10,17 @@ ASVspoof is a challenge hold in bi-annual which aim to promote the design of con
 
 (excerpted from ASVspoof 2019 README.txt) 
 
-## Methodolof
+## Methodology
 * Firstly, we converted FLAC file to WAV file, and used pytorch module to generate waveform and spectrogram which characterizes in three features: frequency, time and intensity which shown by varying the color or brightness.
 ![image](https://github.com/Evian-Chen/DeepFake-Audio-Detect/blob/main/PA_T_0005450.png)
 ![image](https://github.com/Evian-Chen/DeepFake-Audio-Detect/blob/main/PA_T_0006390.png)
 
-* Since our dataset contains 200,000 audio files, we found it extreamly time-consuming to load to G-drive, so we unzipped the folder on colab to avoid run-time error.
-* After, we constructed two models for LA and PA dataset respectively.
+* Since this dataset contains 200,000 audio files, we found it extreamly time-consuming to load to G-drive, so we unzipped the folder on colab to avoid run-time error.
+* After, we set up two models for LA and PA dataset respectively.
   * For LA dataset, we built a VGG-like model, which is 27 layers, to train and successfully achieved the accuracy of 91%.
   * For PA dataset, we use ResNet50, which can be pre-trained by 1000 classifications dataset, and it achieves the accuracy of 95%.
 
 ## references
-<a href="(https://arxiv.org/abs/1512.03385)">Deep Residual Learning for Image Recognition</a>
+<a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning for Image Recognition</a>
+
 <a href="https://www.asvspoof.org/database">ASVspoof2019 Dataset</a>
