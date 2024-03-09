@@ -10,7 +10,8 @@ ASVspoof is a challenge hold in bi-annual which aim to promote the design of con
 
 ## Methodolof
 * Firstly, we converted FLAC file to WAV file, and use pytorch module to generate waveform and spectrumgram.
-
+![image](https://github.com/Evian-Chen/DeepFake-Audio-Detect/blob/main/PA_T_0005450.png)
+![image](https://github.com/Evian-Chen/DeepFake-Audio-Detect/blob/main/PA_T_0005450.png)
 ## references
 <a href="https://www.asvspoof.org/database">ASVspoof2019 Dataset</a>
 
