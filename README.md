@@ -1,6 +1,6 @@
 # DeepFake Audio Detection 
 ## Overview
-This is a project of stanCode SC201 poster session done in January 2023. We tried to build a model that can detect the authenticity of an audio file within one month. The whole presentation of this project was also recorded and uploded on stanCode official YouTube account.
+This is a project of stanCode SC201 poster session done in January 2023. We tried to build a model that can detect the authenticity of an audio file. The whole presentation of this project was also recorded and uploded on stanCode official YouTube account.
 
 <a href="https://youtu.be/EPhzvGlP_jY?si=Kdd6X0hgM7Wltv59"> poster record </a>
 
